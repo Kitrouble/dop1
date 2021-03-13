@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Контакты, Weissgauff, бытовая техника, интернет-магазин">
+    <meta name="description" content="Контакты | Weissgauff">
+    <title>Обратная связь | Weissgauff</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <!--END Styles END-->
+
+    <!-- Scripts -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Scripts -->
+
+</head>
+<body>
+<header>
+    <div class="row h-100">
+        <div class="col-sm col-md-2 header-img"></div>
+        <div class="col-sm-12 col-md-8">
+            <h1> !Ваш Header </h1>
+        </div>
+        <div class="col-sm col-md-2 header-img"></div>
+    </div>
+</header>
+<div class="outline"></div>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <h1 class="text-header w-100"> Обратная связь</h1>
+        <div class="container-fluid">
+            <div class="text-page-header">Заполните форму</div>
+            <div class="text-page-info">
+                <form id="inputForm">
+                    <div id="alertInput" class="alert alert-danger " style="display: none;" role="alert">
+                        Спасибо! Мы обязательно свяжемся с вами.
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email:</label>
+                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Введите email">
+                        <small id="emailHelp" class="form-text text-muted">Например: ivan@mail.ru.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputName">ФИО:</label>
+                        <input type="text" class="form-control" aria-describedby="nameHelp" id="inputName" placeholder="Введите ФИО">
+                        <small id="nameHelp" class="form-text text-muted">Например: Иванов Иван Иванович</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPhone">Номер телефона:</label>
+                        <input type="text" class="form-control" aria-describedby="phoneHelp" id="inputPhone" placeholder="Введите номер телефона">
+                        <small id="phoneHelp" class="form-text text-muted">Например: 8(999)000-00-00</small>
+                    </div>
+                    <button id="sendCallBack" type="button" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>>
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+
+<footer>
+    <div class="container block-phone">
+        <div class="row block-phone">
+            <div class="col-md-4"><hr></div>
+            <div class="col-md-4 phone-center">
+				  					<span class="font-phone">
+						<a href="tel:+74951085386">+7 (495) 108-53-86 </a>
+  					</span>
+            </div>
+            <div class="col-md-4"><hr></div>
+        </div>
+</footer>
+</body>
+</html>
