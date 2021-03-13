@@ -1,6 +1,6 @@
 <?php
 	
-	$mysqli = new mysqli("localhost", "pzjqtfzt_admin", "X5.sn3TC)yu6N1", "pzjqtfzt_wpdop1");
+	$mysqli = new mysqli("", "", "", "");
 	$data = false;
 
 
